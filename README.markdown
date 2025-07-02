@@ -3,8 +3,6 @@
 ## Overview
 The **Crop Growth Monitoring System** is an IoT-based solution designed to enhance precision agriculture by automating the monitoring and management of crop growth conditions. This project integrates real-time environmental sensing, weather forecasting, and vegetation health analysis to optimize irrigation and improve crop yields. The system is built using an STM32 Nucleo-F446RE microcontroller, ESP32 for internet connectivity, and Python-based GUI for data visualization and analysis.
 
-This project was developed as part of the **Microcontroller and Programming** course (EI243AI) at RV College of Engineering, Bengaluru, during the academic year 2024-25.
-
 ## Features
 - **Real-Time Environmental Monitoring**: Tracks temperature, humidity, soil moisture, and light intensity using sensors like DHT11, soil moisture sensor, and LDR.
 - **Automated Irrigation Control**: Activates a water pump based on soil moisture levels and weather forecasts retrieved via the OpenWeatherMap API.
@@ -38,7 +36,7 @@ Crop-Growth-Monitoring-System/
 ├── Combined_Analysis_NDVI_NIR.py # Combined NDVI and VARI analysis script
 ├── NDVI.py                   # NDVI computation and analysis
 ├── VARI.py                   # VARI computation and analysis
-├── display_final.py           # GUI for sensor data visualization and analysis
+├── dataLogger.py             # GUI for sensor data visualization and analysis
 ├── RGB_Images/               # Directory for RGB images
 ├── NIR_Images/               # Directory for NIR images
 ├── vari_outputs_date/        # Directory for VARI output images
@@ -75,7 +73,7 @@ Crop-Growth-Monitoring-System/
 1. **Start the STM32**: Power on the hardware setup and ensure the STM32 is running the `main.c` firmware.
 2. **Launch the GUI**:
    ```bash
-   python display_final.py
+   python dataLogger.py
    ```
 3. **Connect to STM32**:
    - Select the appropriate COM port in the GUI.
@@ -110,10 +108,4 @@ Crop-Growth-Monitoring-System/
 - Huete, A. (1988). *A soil-adjusted vegetation index (SAVI)*. Remote Sensing of Environment, 25(3), 295-309.
 - OpenWeatherMap API Documentation. [Link](https://openweathermap.org/appid)
 
-## Contributors
-- **Sathvik Madagi** (IRV23EC133)
-- **Shreevathsa Kuthethoor** (IRV23EC140)
-- **Shridattha M Hebbar** (IRV23EC143)
 
-## License
-This project is licensed under the MIT License.
