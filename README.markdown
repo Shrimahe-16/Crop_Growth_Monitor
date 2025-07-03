@@ -124,7 +124,7 @@ The `ESP32_Code.ino` script enables the ESP32 to:
 - NDVI values >0.6 and VARI values >0.5 indicate healthy vegetation.
 - The GUI provides intuitive visualization and insights for crop management, enhanced by real-time weather data from the ESP32.
 
-![alt text](image.png) ![alt text](<Screenshot 2025-07-01 231636.png>) ![alt text](<Screenshot 2025-07-01 231801.png>)
+![alt text](image.png) ![alt text](<Screenshot 2025-07-01 231636.png>) ![alt text](<Screenshot 2025-07-01 231801.png>) ![alt text](<Screenshot 2025-07-01 231649.png>)
 
 
 ## References
