@@ -3,8 +3,6 @@
 ## Overview
 The **Crop Growth Monitoring System** is an IoT-based solution designed to enhance precision agriculture by automating the monitoring and management of crop growth conditions. This project integrates real-time environmental sensing, weather forecasting, and vegetation health analysis to optimize irrigation and improve crop yields. The system is built using an STM32 Nucleo-F446RE microcontroller, ESP32 for internet connectivity, and Python-based GUI for data visualization and analysis.
 
-This project was developed as part of the **Microcontroller and Programming** course (EI243AI) at RV College of Engineering, Bengaluru, during the academic year 2024-25.
-
 ## Features
 - **Real-Time Environmental Monitoring**: Tracks temperature, humidity, soil moisture, and light intensity using sensors like DHT11, soil moisture sensor, and LDR.
 - **Automated Irrigation Control**: Activates a water pump based on soil moisture levels and weather forecasts retrieved via the OpenWeatherMap API.
