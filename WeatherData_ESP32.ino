@@ -5,12 +5,12 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "Test";
-const char* password = "testpass";
+const char* ssid = "wifi_ssid";
+const char* password = "wifi_password";
 
 // OpenWeatherMap API details
-const char* apiKey = "911c17d59859e1246025e5439ed83f2d";
-const char* city = "Bangalore";
+const char* apiKey = "place your api key here";
+const char* city = "city name";
 
 // API URLs
 String currentURL = "http://api.openweathermap.org/data/2.5/weather?q=" + String(city) + "&units=metric&appid=" + String(apiKey);
